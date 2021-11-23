@@ -1,0 +1,26 @@
+name: lkfpy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-image
+  - ipython
+  - jupyter
+  - basemap
+  - netcdf4
+  - jupyter_nbextensions_configurator
+  - jupyter_contrib_nbextensions
+  - rise
+  - pandas
+  - xmitgcm
+  - jupyterlab
+  - ipympl
+  - ipywidgets
+  - nodejs
+  - tqdm
+  - nbstripout
+prefix: /home/ollie/nhutter/miniconda3/envs/lkfpy
