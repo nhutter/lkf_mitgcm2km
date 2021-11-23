@@ -9,7 +9,7 @@ sys.path.append('path_to_lkf_tools_repo')
 from lkf_detection import *
 from lkf_tracking import *
 from model_utils import *
-from lkf_model_utils import *
+from lkf_model import *
 
 
 # Options
