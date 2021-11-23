@@ -7,6 +7,6 @@ Requirements:
 
 Changes required on different machines:
 - add [path](https://github.com/nhutter/lkf_mitgcm2km/blob/b7803680823ab1595f416176afe7c7bfa637d54b/gen_dataset_model.py#L8) to `lkf_tools`
-- adapt [path](https://github.com/nhutter/lkf_mitgcm2km/blob/b7803680823ab1595f416176afe7c7bfa637d54b/gen_dataset_model.py#L21) to grid files of the simulations in binary format (`DXC.bin`,`DYC.bin`, etc.)
-- adapt [path](https://github.com/nhutter/lkf_mitgcm2km/blob/b7803680823ab1595f416176afe7c7bfa637d54b/gen_dataset_model.py#L22) to all output files of the simulations in binary format. `SIuice`, `SIvice`, and `SIarea` are required.
+- adapt [path_model_grid](https://github.com/nhutter/lkf_mitgcm2km/blob/b7803680823ab1595f416176afe7c7bfa637d54b/gen_dataset_model.py#L21) to grid files of the simulations in binary format (`DXC.bin`,`DYC.bin`, etc.)
+- adapt [path_model_output](https://github.com/nhutter/lkf_mitgcm2km/blob/b7803680823ab1595f416176afe7c7bfa637d54b/gen_dataset_model.py#L22) to all output files of the simulations in binary format. `SIuice`, `SIvice`, and `SIarea` are required.
 
