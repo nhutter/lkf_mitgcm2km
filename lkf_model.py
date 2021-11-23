@@ -87,3 +87,16 @@ def lkf_detect_model(path_model_output,path_model_grid,path_processed,file_ind_s
 
     return 'Done'
 
+
+def segs2latlon_model(segs,lon,lat):
+    """ Function that converts index format of detected LKFs to
+    lat,lon coordinates
+    """
+    segsf = []
+    for iseg in segs:
+        segsf.append(np.concatenate([iseg,
+                                     np.stack([lon[iseg[0],iseg[1]],
+                                               lat[iseg[0],iseg[1]]])],
+                                     axis=0))
+    return segsf
+
